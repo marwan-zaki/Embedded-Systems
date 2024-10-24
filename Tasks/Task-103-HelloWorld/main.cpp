@@ -19,7 +19,7 @@ int main()
     lcd.cls();
 
     //Small pause for 1s
-    wait_us(1000 * WAIT_TIME_MS);
+    wait_us(1000 * 2* WAIT_TIME_MS);
 
     //Turn off all the LEDs
     ledRed = 0;
